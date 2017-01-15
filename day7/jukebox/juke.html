@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title> Juke Box</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+	<body>
+		<h1 id = "headline">Juke Box</h1>
+		<h2>Select a song from the list below and hit play!</h2>
+		<form>
+			<div id = listContainer >
+				<ul id = "tracks">
+					<li id = "track1"><a href = "#">Playing The Owls</a></li>
+					<li id = "track2"><a href = "#">Playing Anglo Hollow</a></li>
+					<li id = "track3"><a href = "#">Playing play Times</a></li>
+					<li id = "track4"><a href = "#">Playing witness</a></li>
+				</ul>
+			</div>
+
+			<audio src="theowl.mp3" id = "owl"></audio>
+			<audio src="songs/aglowhollow.mp3" id= "hollow"></audio>
+			<audio src="songs/playTimes.mp3" id = "playtimes"></audio>
+			<audio src="songs/notawitness.mp3" id = "witness"></audio>
+			<audio src = "" id = "adding" > </audio>
+			
+			<div><input type="search" name="search" placeholder="search the song" id = "search"></div>
+			<div><input id = "searchButton" type="submit" name="submit" value="search"></div>
+		</form>
+		<i id = "pause" class="fa fa-pause-circle fa-4x" aria-hidden="true"></i>
+		<i  id = "play" class="fa fa-play-circle fa-4x" aria-hidden="true"></i>
+		<i id = "stop" class="fa fa-stop-circle fa-4x" aria-hidden="true"></i>
+		<div id = "discContainer"><img id = "disc" src="https://s-media-cache-ak0.pinimg.com/originals/50/39/16/503916debae6796f1be1259723e890d3.gif"></div>
+		
+		<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+		<script src = "script.js"></script>
+	</body>
+	</html>
+

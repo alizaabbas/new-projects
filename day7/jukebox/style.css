@@ -1,0 +1,89 @@
+input{
+	
+	float: right;
+	clear: right;
+
+}
+ul , li{
+	clear: left;
+	float: left;
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+	font-size: 25px;
+
+}
+
+body{
+	background: url("http://hdwall.us/wallpaper/guitars_abstract_pattern_music_black_background_desktop_1280x1024_hd-wallpaper-14780.jpg") no-repeat fixed center;
+	background-size: cover;
+	margin: 0;
+	
+	
+}
+#headline , li{
+	color: red;
+	font-family: "chalkduster" , fantasy;
+}
+ /*
+ #listContainer{
+ 	float: left;
+ 	font-size: 25px;
+ 	margin: 0 ;
+ 	}*/
+
+ 	#play , #pause, #stop{
+ 		clear: left;
+ 		clear: right;
+ 		float: right;
+ 		color: yellow;
+ 	}
+ 	
+ 	a{
+ 		text-decoration: none;
+ 		color: red;
+ 	}
+ 	#search{
+ 		width: 250px;
+ 		height:40px;
+ 		color: orange;
+ 		font-size: 26px;
+ 		background-color: black;
+ 		font-family: "chalkduster" , fantasy;
+ 		border-radius: 20px;
+
+ 	}
+ 	#searchButton{
+ 		color: black;
+ 		font-style: bold;
+ 		font-size: 26px;
+ 		background-color: orange;
+ 		width: 140px;
+ 		height:40px;
+ 		border-radius: 20px;
+ 		font-family: "chalkduster" , fantasy;
+
+ 	}
+ 	h2{
+ 		font-family: "chalkduster" , fantasy;
+ 		color: #DA0B1F;     
+ 		font-size: 28px;
+ 		text-shadow: 3px 0 0;
+ 		-webkit-text-stroke-width: 0.1px;
+ 		-webkit-text-stroke-color: orange;
+ 	}
+
+ 	#disc {
+ 		width: inherit;
+ 		height: inherit;
+ 	}
+ 	
+ 	
+ 	#discContainer{
+ 		clear: left;
+ 		clear: right;
+ 		position: fixed;
+ 		bottom: 0 ;
+ 		height: 50px;
+ 		width: 100%;
+ 	}
