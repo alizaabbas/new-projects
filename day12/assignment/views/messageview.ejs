@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body style="background-color: #F3D5BD;">
+	<h1 style="color: #AD235E; text-transform: capitalize;"><%= user.name %> says:</h1>
+	<blockquote style="background-color: #7D9C9F; text-transform: capitalize; width: 300px; height: 100px; font-size: 32px; margin: 0; color: #AD235E;">
+		<%= user.message %></blockquote>
+<!--
+  <div>
+  <input type="text" name="updatemessage" placeholder= "please update your text here">
+  </div>
+
+  <button>
+  <a style="text-decoration: none;" href=<%="/update/bulletin/"+user.user_id %>>update</a>
+  </button>
+-->
+
+<div style="padding-top: 1%;">
+	<a style = "text-decoration: none; color: #D3649F; font-size: 30px;" href=<%="/delete/bulletin/"+user.user_id %>>Click to delete this user</a>
+</div>
+
+<div style="padding-top: 1%;">
+	<a style = "text-decoration: none; color: #D3649F; font-size: 30px;" href=<%="/bulletin" %>>Click to return to the home page</a>
+</div>
+
+</body>
+</html>
